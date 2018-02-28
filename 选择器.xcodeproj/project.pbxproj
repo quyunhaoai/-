@@ -14,6 +14,7 @@
 		C4FDD8C61BF03861001322C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FDD8C51BF03861001322C5 /* Images.xcassets */; };
 		C4FDD8C91BF03861001322C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FDD8C71BF03861001322C5 /* LaunchScreen.xib */; };
 		C4FDD8D51BF03862001322C5 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FDD8D41BF03862001322C5 /* ___Tests.m */; };
+		C4FDD8E01BF03933001322C5 /* ZHPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FDD8DF1BF03933001322C5 /* ZHPickView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C4FDD8CE1BF03861001322C5 /* 选择器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "选择器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FDD8D31BF03862001322C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FDD8D41BF03862001322C5 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		C4FDD8DE1BF03933001322C5 /* ZHPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHPickView.h; sourceTree = "<group>"; };
+		C4FDD8DF1BF03933001322C5 /* ZHPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHPickView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		C4FDD8B71BF03861001322C5 /* 选择器 */ = {
 			isa = PBXGroup;
 			children = (
+				C4FDD8DE1BF03933001322C5 /* ZHPickView.h */,
+				C4FDD8DF1BF03933001322C5 /* ZHPickView.m */,
 				C4FDD8BC1BF03861001322C5 /* AppDelegate.h */,
 				C4FDD8BD1BF03861001322C5 /* AppDelegate.m */,
 				C4FDD8BF1BF03861001322C5 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				C4FDD8C11BF03861001322C5 /* ViewController.m in Sources */,
 				C4FDD8BE1BF03861001322C5 /* AppDelegate.m in Sources */,
 				C4FDD8BB1BF03861001322C5 /* main.m in Sources */,
+				C4FDD8E01BF03933001322C5 /* ZHPickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
